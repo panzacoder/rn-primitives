@@ -106,4 +106,4 @@ const Indicator = React.forwardRef<IndicatorRef, IndicatorProps>(
 
 Indicator.displayName = 'IndicatorRadioGroup';
 
-export { Indicator, Item, Root };
+export { Indicator, Item, Root, useRadioItemContext, useRadioGroupContext };
